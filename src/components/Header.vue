@@ -1,0 +1,30 @@
+<template>
+  <div class="wrap header-wrap">
+    <header>
+      <div class="logo">
+        <img src="../assets/img/my-health-rus.svg" alt="logo">
+      </div>
+      <div class="stores">
+        <div class="play-store">
+        <img src="../assets/img/play-store.svg" alt="play-store">
+      </div>
+      <div class="app-store">
+        <img src="../assets/img/app-store.svg" alt="app-store">
+      </div>
+      </div>
+      <div class="med-sol">
+        <img src="../assets/img/med_sol.svg" alt="my-health">
+      </div>
+    </header>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style scoped lang="scss">
+@import '@/styles/header';
+</style>
