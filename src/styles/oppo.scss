@@ -1,0 +1,25 @@
+.header {
+  margin-top: 23px;
+  font-size: 46px;
+  color: #ff5252;
+}
+.oppo-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 42px;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+.list-item {
+  height: 64px;
+  .text {
+    background-size: 10px 10px;
+    padding-left: 90px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #212121;
+  }
+}

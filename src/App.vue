@@ -4,6 +4,7 @@
       <div class="first-block">
         <Header></Header>
         <FirstBlock></FirstBlock>
+        <SecondBlock></SecondBlock>
       </div>
     </div>
   </div>
@@ -12,11 +13,13 @@
 <script>
 import Header from '@/components/Header'
 import FirstBlock from '@/components/FirstBlock'
+import SecondBlock from '@/components/SecondBlock'
 
 export default {
   components: {
     Header,
-    FirstBlock
+    FirstBlock,
+    SecondBlock
   }
 }
 </script>
