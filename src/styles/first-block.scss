@@ -6,9 +6,11 @@
   grid-template-columns: 1fr 1fr;
 }
 .description {
-  font-family: 'Open-Sans', sans-serif;
   color: #fff;
   font-size: 40px;
+  h1 {
+    font-size: 46px;
+  }
 }
 .subdescr {
   font-size: 20px;
@@ -51,7 +53,6 @@
   }
 }
 .img {
-  width: 250px;
   height: 500px;
 }
 .active {

@@ -34,4 +34,10 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/styles/oppo.scss';
+@media screen and (max-width: 1919px) {
+  @import '@/styles/small/sm-opportunities';
+}
+@media screen and (max-width: 767px) {
+  @import '@/styles/xs/xs-opportunities';
+}
 </style>

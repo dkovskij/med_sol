@@ -10,11 +10,11 @@
         </li>
       </ul>
     </div>
-    <div class="carousel">
+    <div v-touch:swipe="swipe" class="carousel">
       <div class="arr-left" @click="changePos('prev')">
         <img src="../assets/img/arr-left.svg" alt="arr-left">
       </div>
-      <img v-for="(img, index) in imgList" :key="'img' + index" :ref="'img' + index" :src="img.img" :class="['carousel-' + img.class, 'carousel-img']">
+      <img v-for="(img, index) in imgList" :key="'img' + index" :src="img.img" :class="['carousel-' + img.class, 'carousel-img']">
       <div class="arr-right" @click="changePos('next')">
         <img src="../assets/img/arr-right.svg" alt="arr-right">
       </div>
@@ -38,34 +38,6 @@ export default {
       ]
     }
   },
-  mounted() {
-    console.log(this.$refs) // eslint-disable-line
-    // for (let key in this.$refs) {
-    //   switch (key) {
-    //     case 'img0':
-    //       this.$refs[key][0].classList.add('carousel--3')
-    //       break
-    //     case 'img1':
-    //       this.$refs[key][0].classList.add('carousel--2')
-    //       break
-    //     case 'img2':
-    //       this.$refs[key][0].classList.add('carousel--1')
-    //       break
-    //     case 'img3':
-    //       this.$refs[key][0].classList.add('carousel-0')
-    //       break
-    //     case 'img4':
-    //       this.$refs[key][0].classList.add('carousel-1')
-    //       break
-    //     case 'img5':
-    //       this.$refs[key][0].classList.add('carousel-2')
-    //       break
-    //     case 'img6':
-    //       this.$refs[key][0].classList.add('carousel-3')
-    //       break
-    //   }
-    // }
-  },
   methods: {
     changePos(direction) {
     if (direction === 'prev') {
@@ -83,6 +55,13 @@ export default {
         this.imgList[i].class++
       }
     }
+  },
+  swipe(direction) {
+    if (direction === 'right') {
+      this.changePos('next')
+    } else {
+      this.changePos('prev')
+    }
   }
   },
 }
@@ -90,4 +69,10 @@ export default {
 
 <style lang="scss" scoped>
   @import '@/styles/control.scss';
+  @media screen and (max-width: 1919px) {
+    @import '@/styles/small/sm-control';
+  }
+  @media screen and (max-width: 767px) {
+    @import '@/styles/xs/xs-control';
+  }
 </style>

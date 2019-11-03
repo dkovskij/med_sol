@@ -1,0 +1,33 @@
+.wrap {
+  margin-top: 0;
+}
+.description {
+  h1 {
+    font-size: 22px;
+    line-height: 1.23;
+  }
+}
+.mobile-stores {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  img {
+    width: 127px;
+    height: 35px;
+  }
+}
+.carousel {
+  margin-top: 5px;
+  grid-column: unset;
+  .carousel-wrap {
+    .first {
+      left: 0;
+    }
+    .second {
+      left: 110px;
+    }
+  }
+}
+.buttons {
+  margin-left: 30px;
+}

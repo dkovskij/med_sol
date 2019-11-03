@@ -15,6 +15,9 @@
       <div class="med-sol">
         <img src="../assets/img/med_sol.svg" alt="my-health">
       </div>
+      <div class="hamburger">
+        <img src="../assets/img/hamb.svg" alt="hamburger">
+      </div>
     </header>
   </div>
 </template>
@@ -27,4 +30,10 @@ export default {
 
 <style scoped lang="scss">
 @import '@/styles/header';
+@media screen and (max-width: 1919px) {
+  @import '@/styles/small/sm-header.scss';
+}
+@media screen and (max-width: 767px) {
+  @import '@/styles/xs/xs-header';
+}
 </style>

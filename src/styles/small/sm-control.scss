@@ -1,0 +1,44 @@
+.container {
+  grid-template-columns: 1fr;
+}
+.description {
+  .header {
+    margin-top: 60px;
+    font-size: 28px;
+  }
+  .list {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .list-item {
+      font-size: 16px;
+    }
+    .list-item:nth-child(n+2) {
+      margin-top: 0;
+    }
+  }
+}
+.carousel {
+  margin-top: 50px;
+  height: 390px;
+}
+.carousel-img {
+  width: 170px;
+  height: 370px;
+}
+.arr-left, .arr-right {
+  top: 35%;
+  width: 47px;
+  height: 47px;
+  line-height: 47px;
+  img {
+    width: 8px;
+    height: 19px;
+  }
+}
+.arr-right {
+  right: 100px;
+}
+.arr-left {
+  left: 115px;
+}

@@ -5,6 +5,7 @@
         <Header></Header>
         <FirstBlock></FirstBlock>
         <SecondBlock></SecondBlock>
+        <Footer></Footer>
       </div>
     </div>
   </div>
@@ -14,17 +15,24 @@
 import Header from '@/components/Header'
 import FirstBlock from '@/components/FirstBlock'
 import SecondBlock from '@/components/SecondBlock'
+import Footer from '@/components/Footer'
 
 export default {
   components: {
     Header,
     FirstBlock,
-    SecondBlock
+    SecondBlock,
+    Footer
   }
 }
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import '@/styles/main';
+@media screen and (max-width: 1919px) {
+  @import '@/styles/small/sm-main.scss';
+}
+@media screen and (max-width: 767px) {
+  @import '@/styles/xs/xs-main';
+}
 </style>

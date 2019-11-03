@@ -13,6 +13,14 @@
             {{ item.text }}
           </div>
         </div>
+        <div class="mobile-stores">
+          <div>
+            <img src="../assets/img/play-store.svg" alt="play-store">
+          </div>
+          <div>
+            <img src="../assets/img/app-store.svg" alt="app-store">
+          </div>
+        </div>
       </div>
       <div class="carousel">
         <div class="carousel-wrap">
@@ -63,4 +71,10 @@ export default {
 
 <style scoped lang="scss">
   @import '@/styles/first-block';
-</style>>
+  @media screen and (max-width: 1919px) {
+    @import '@/styles/small/sm-first-block.scss';
+  }
+  @media screen and (max-width: 767px) {
+    @import '@/styles/xs/xs-first-block';
+  }
+</style>

@@ -19,4 +19,10 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/styles/second-block.scss';
+@media screen and (max-width: 1919px) {
+  @import '@/styles/small/sm-second-block';
+}
+@media screen and (max-width: 767px) {
+  @import '@/styles/xs/xs-second-block';
+}
 </style>
