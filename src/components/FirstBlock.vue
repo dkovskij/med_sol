@@ -71,10 +71,27 @@ export default {
 
 <style scoped lang="scss">
   @import '@/styles/first-block';
-  @media screen and (max-width: 1919px) {
+  @media screen and (max-width: 1280px) {
+    .description {
+      grid-column: 1 / 3;
+    }
+    .carousel {
+      grid-column: 1 / 3;
+      .carousel-wrap {
+        height: 540px;
+        .first {
+          left: 30%;
+        }
+        .second {
+          left: 50%;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
     @import '@/styles/small/sm-first-block.scss';
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 360px) {
     @import '@/styles/xs/xs-first-block';
   }
 </style>

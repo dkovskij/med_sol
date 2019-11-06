@@ -29,10 +29,10 @@ export default {
 
 <style lang="scss">
 @import '@/styles/main';
-@media screen and (max-width: 1919px) {
+@media screen and (max-width: 768px) {
   @import '@/styles/small/sm-main.scss';
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 360px) {
   @import '@/styles/xs/xs-main';
 }
 </style>

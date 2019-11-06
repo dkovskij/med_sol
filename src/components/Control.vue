@@ -69,10 +69,21 @@ export default {
 
 <style lang="scss" scoped>
   @import '@/styles/control.scss';
-  @media screen and (max-width: 1919px) {
+  @media screen and (max-width: 1080px) {
+    .container {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+    .description {
+      .header {
+        margin-top: 50px;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
     @import '@/styles/small/sm-control';
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 360px) {
     @import '@/styles/xs/xs-control';
   }
 </style>

@@ -4,6 +4,8 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  max-width: 1500px;
+  padding: 0 20px;
 }
 .description {
   color: #fff;
@@ -43,7 +45,7 @@
     .first {
       position: absolute;
       top: 0;
-      left: 165px;
+      left: 20%;
     }
     .second {
       position: absolute;
@@ -51,6 +53,9 @@
       left: 360px;
     }
   }
+}
+.mobile-stores {
+  display: none;
 }
 .img {
   height: 500px;

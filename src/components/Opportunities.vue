@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="opportunities-container">
     <div class="header">
       Возможности приложения
     </div>
@@ -34,10 +34,15 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/styles/oppo.scss';
-@media screen and (max-width: 1919px) {
+@media screen and (max-width: 1040px) {
+  .oppo-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
   @import '@/styles/small/sm-opportunities';
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 360px) {
   @import '@/styles/xs/xs-opportunities';
 }
 </style>
