@@ -1,0 +1,52 @@
+.opportunities-container {
+  max-width: 1500px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.header {
+  margin-top: 23px;
+  font-size: 46px;
+  color: #ff5252;
+}
+.oppo-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 42px;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+.list-item {
+  height: 64px;
+  .text {
+    background-size: 10px 10px;
+    padding-left: 90px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #212121;
+  }
+}
+
+.text {
+  position: relative;
+  .soon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 53px;
+    height: 15px;
+    border-radius: 9px;
+    background-image: linear-gradient(to right, #f26a35 0%, #ee3048 100%);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-align: center;
+  }
+}

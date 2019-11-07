@@ -1,0 +1,24 @@
+@import './variables';
+header {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header-wrap {
+  box-shadow: 0 3px 9px 0 $dark-teal-10;
+}
+.stores {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+.med-sol {
+  justify-self: center;
+}
+.hamburger {
+  display: none;
+}

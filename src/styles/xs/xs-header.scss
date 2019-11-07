@@ -1,0 +1,25 @@
+header {
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+}
+.header-wrap {
+  box-shadow: unset;
+  padding: 23px 35px;
+}
+.logo {
+  img {
+    width: 105px;
+  }
+}
+.stores {
+  display: none;
+}
+.hamburger {
+  display: none;
+}
+.med-sol {
+  justify-self: right;
+  img {
+    width: 105px;
+  }
+}

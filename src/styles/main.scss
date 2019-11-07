@@ -1,0 +1,19 @@
+@import '@/styles/fonts';
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.first-block {
+  background: url('./assets/img/group-24.svg') no-repeat;
+  height: 971px;
+}
