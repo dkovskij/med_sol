@@ -80,10 +80,10 @@ export default {
       }
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     @import '@/styles/small/sm-control';
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 768px) {
     @import '@/styles/xs/xs-control';
   }
 </style>

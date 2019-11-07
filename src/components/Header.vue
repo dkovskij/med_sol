@@ -30,10 +30,10 @@ export default {
 
 <style scoped lang="scss">
 @import '@/styles/header';
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   @import '@/styles/small/sm-header.scss';
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
   @import '@/styles/xs/xs-header';
 }
 </style>

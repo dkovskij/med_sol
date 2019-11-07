@@ -27,7 +27,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/styles/footer.scss';
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   @import '@/styles/small/sm-footer';
 }
 </style>

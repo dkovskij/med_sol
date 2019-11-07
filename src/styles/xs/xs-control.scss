@@ -17,81 +17,157 @@
   height: 188px;
 }
 .carousel--6 {
-  left: 0;
-  z-index: 5;
-  transition: all 0.5s ease;
-}
+  left: calc(50% - 130px);
+    z-index: 5;
+    transition: all 0.5s ease;
+  }
 .carousel--5 {
-  left: 10px;
+  left: calc(50% - 120px);
   z-index: 6;
   transform: scale(1.01);
   transition: all 0.5s ease;
 }
 .carousel--4 {
-  left: 20px;
+  left: calc(50% - 110px);
   z-index: 7;
   transform: scale(1.02);
   transition: all 0.5s ease;
 }
 .carousel--3 {
-  left: 30px;
+  left: calc(50% - 100px);
   z-index: 8;
   transform: scale(1.03);
   transition: all 0.5s ease;
 }
 .carousel--2 {
-  left: 40px;
+  left: calc(50% - 90px);
   z-index: 9;
   transform: scale(1.04);
   transition: all 0.5s ease;
 }
 .carousel--1 {
-  left: 60px;
+  left: calc(50% - 70px);
   z-index: 10;
   transform: scale(1.05);
   transition: all 0.5s ease;
 }
 .carousel-0 {
-  left: 90px;
+  left: calc(50% - 41px);
   z-index: 11;
   transform: scale(1.15);
-  transition: all 0.5s ease;
+  transition: all .5s ease;
 }
 .carousel-1 {
-  left: 120px;
+  right: calc(50% - 70px);
   z-index: 10;
   transform: scale(1.05);
   transition: all 0.5s ease;
 }
 .carousel-2 {
-  left: 140px;
+  right: calc(50% - 90px);
   z-index: 9;
   transform: scale(1.04);
   transition: all 0.5s ease;
 }
 .carousel-3 {
-  left: 150px;
+  right: calc(50% - 100px);
   z-index: 8;
   transform: scale(1.03);
   transition: all 0.5s ease;
 }
 .carousel-4 {
-  left: 160px;
+  right: calc(50% - 110px);
   z-index: 7;
   transform: scale(1.02);
   transition: all 0.5s ease;
 }
 .carousel-5 {
-  left: 170px;
+  right: calc(50% - 120px);
   z-index: 6;
   transform: scale(1.01);
   transition: all 0.5s ease;
 }
 .carousel-6 {
-  left: 180px;
+  right: calc(50% - 130px);
   z-index: 5;
   transition: all 0.5s ease;
 }
+// .carousel--6 {
+//   left: 0;
+//   z-index: 5;
+//   transition: all 0.5s ease;
+// }
+// .carousel--5 {
+//   left: 10px;
+//   z-index: 6;
+//   transform: scale(1.01);
+//   transition: all 0.5s ease;
+// }
+// .carousel--4 {
+//   left: 20px;
+//   z-index: 7;
+//   transform: scale(1.02);
+//   transition: all 0.5s ease;
+// }
+// .carousel--3 {
+//   left: 30px;
+//   z-index: 8;
+//   transform: scale(1.03);
+//   transition: all 0.5s ease;
+// }
+// .carousel--2 {
+//   left: 40px;
+//   z-index: 9;
+//   transform: scale(1.04);
+//   transition: all 0.5s ease;
+// }
+// .carousel--1 {
+//   left: 60px;
+//   z-index: 10;
+//   transform: scale(1.05);
+//   transition: all 0.5s ease;
+// }
+// .carousel-0 {
+//   left: 90px;
+//   z-index: 11;
+//   transform: scale(1.15);
+//   transition: all 0.5s ease;
+// }
+// .carousel-1 {
+//   left: 120px;
+//   z-index: 10;
+//   transform: scale(1.05);
+//   transition: all 0.5s ease;
+// }
+// .carousel-2 {
+//   left: 140px;
+//   z-index: 9;
+//   transform: scale(1.04);
+//   transition: all 0.5s ease;
+// }
+// .carousel-3 {
+//   left: 150px;
+//   z-index: 8;
+//   transform: scale(1.03);
+//   transition: all 0.5s ease;
+// }
+// .carousel-4 {
+//   left: 160px;
+//   z-index: 7;
+//   transform: scale(1.02);
+//   transition: all 0.5s ease;
+// }
+// .carousel-5 {
+//   left: 170px;
+//   z-index: 6;
+//   transform: scale(1.01);
+//   transition: all 0.5s ease;
+// }
+// .carousel-6 {
+//   left: 180px;
+//   z-index: 5;
+//   transition: all 0.5s ease;
+// }
 .arr-left, .arr-right {
   display: none;
 }

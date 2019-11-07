@@ -7,6 +7,9 @@
       <li v-for="(item, index) in oppos" :key="'oppo' + index" class="list-item">
         <div class="text" :style="'background: url(' + item.bg + ') no-repeat'" >
           {{ item.text }}
+          <div class="soon" v-if="item.soon">
+            Скоро
+          </div>
         </div>
       </li>
     </ul>
@@ -39,10 +42,10 @@ export default {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   @import '@/styles/small/sm-opportunities';
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
   @import '@/styles/xs/xs-opportunities';
 }
 </style>
